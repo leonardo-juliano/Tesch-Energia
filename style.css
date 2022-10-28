@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,800&display=swap');
+
+*{
+    font-family: 'poppins',sans-serif;
+}
+body{
+    margin: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    
+}
+.logo{
+    width: 250;
+    height: 300;
+}
+.banner1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: #19555E;
+    background: url(./img/banner_1.jpg)  center center/cover;
+    color: white;
+}
+
+.cta_amarelo{
+    background-color: #F8BF1C;
+    font-family: 'Poppins', sans-serif;
+    color: #19555E;
+    font-size: 17px;
+    padding: 20px;
+    border-radius: 15px;
+    border-color: #F8BF1C;
+    text-transform: uppercase;
+    align-items: center;
+}
+.cta_amarelo img {
+    width: 20px;
+    height: 20px;
+    align-items: center;
+}
+
+h1{
+    font-size: 52px;
+    margin-bottom: -10px;
+    line-height: 58px ;
+    text-align: center;
+}
+
+h2{
+    font-size: 24px;
+    text-align: center;
+}
+
+.banner2{
+    font-size: 42px;
+    color:#19555E;
+    padding: 20px;
+    padding-bottom: 70px;
+    text-align: center;
+    font-family: 'poppins';
+}
+
+.subtitulo{
+    font-size: 24px;
+    font-family: 'poppins',sans-serif;
+    color: #404041;
+}
+
+.topics {
+    display: flex;
+    font-size: 22px;
+    font-family: 'poppins';
+    color: #404041
+}
+
+
+.banner3{
+    background-color: #F8BF1C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    padding-left: 80px;
+    
+}
+
+.titulo_lado{
+    font-size: 42px;
+    color: #19555E;
+    line-height: 45px ;
+}
+.banner4{
+    background-color: #19555E;
+    color: #ffffff;
+    text-align: center;
+    font-size: 42px;
+    font-family: 'poppins', sans-serif;
+    padding: 30px;
+    padding-bottom: 50px;
+}
+.subtitulo_branco{
+    font-size: 24px;
+    font-family: 'poppins',sans-serif;
+    color: #ffffff;
+}
+
+.desc{
+    font-size: 24px;
+    font-family: 'poppins',sans-serif;
+    color: #ffffff;
+}
+
+/*------GRID-------*/
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding: 70px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; text-align: center; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; text-align: center;}
+    .div3 { grid-area: 1 / 3 / 2 / 4; text-align: center;}
+    .div4 { grid-area: 2 / 1 / 3 / 2; text-align: center;}
+    .div5 { grid-area: 2 / 2 / 3 / 3; text-align: center;}
+    .div6 { grid-area: 2 / 3 / 3 / 4; text-align: center;}
+    .div7 { grid-area: 1 / 4 / 3 / 6; text-align: right;}
+
+.titulo_vantagens{
+    color: #19555E;
+    font-size: 28px;
+    font-family: 'poppins',sans-serif;
+    font-style: bold;
+    margin-bottom: -20px;
+}
+.subtitulo_vantagens{
+    color: #404041;
+    font-size: 18px;
+    font-family: 'poppins';
+
+}
+h4{
+    font-size: 42px;
+    font-family: 'poppins',sans-serif;
+    color: #19555E;
+    line-height: 50px;
+    margin-bottom: -25px;
+    
+}
+
+
+.banner6{
+    padding: 70px;
+    text-align: center;
+    height: 250px;
+    background: url(./img/banner_6.jpg) center center/cover;
+
+}
+h5{
+    margin-top: -35px;
+    font-size: 48px;
+    color: #19555E;
+    font-family: 'poppins';
+   
+}
+.banner7{
+    display: flex;
+    padding: 70px;
+    background-color: #F6F6F6;
+}
+.banner7 img {
+    border-radius: 70px 0px 70px 0px;
+}
+
+.banner8{
+    display: flex;
+    padding: 70px;
+    background: url(./img/banner_6.jpg) center center/cover;
+    align-items: center;
+}
+.autor{
+    font-size: 14px;
+    text-align: center;
+    color: #F6F6F6;
+    text-align: center;
+}
+
+.botao_zap{
+    width: 45px;
+    height: 45px;
+    border-radius: 15px;
+    
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+}
+.botao_zap:hover{
+    width: 50px;
+    height: 50px;
+}
+
+.perguntas{
+    background-color: #19555E;
+    align-items: center;
+    padding: 70px;
+}
+.perguntas div{
+    align-items: center;
+}
+.perguntas p{
+    color: white;
+    font-size: 18px;
+    
+}
+.perguntas h8{
+    font-size: 48px;
+    align-items: center;
+}
+.perguntas h9{
+    font-size: 22px;
+    align-items: center;
+}
+.pergunta{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.pergunta h3{
+    color: white;
+    font-size: 23px;
+}
+
+.pergunta i{
+    color: white;
+    font-size: 33px;
+    transition: all 0.5s ease;
+}
+
+.resposta{
+    max-height: 0px;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+    transform: scaleY(0.2);
+    transform-origin: top;
+}
+
+.ativar{
+    max-height: 300px;
+    transform: scaleY(1);
+    opacity: 1;
+}
+
+.fechar i{
+    transform: rotate(180deg);
+}
+
+@media (max-width: 480px){
+    .banner1{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 650px;
+        padding: 20px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .topics {
+        display: flex;
+        flex-direction: column;
+    }
+    .banner2{
+        padding: 25px;
+    }
+    .banner3{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+    .parent{
+        display: none;
+    }
+    .banner6{
+        height: 500px;
+        padding: 30px;
+    }
+    .banner7{
+        display: flex;
+        flex-direction: column;
+        padding:30px;
+    }
+    .img_casa{
+        width: 300px;
+        height: 300px;
+        padding-top: 20px ;
+    }
+    .banner8{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        height: 900px;
+        align-items: center;
+    }
+    
+ }
+ @media (min-width: 481px) and (max-width: 768px){
+    .banner1{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 600px;
+        justify-content: center;
+        font-family: 'Poppins', sans-serif;
+        background-color: #19555E;
+        background: url(./img/banner_1.jpg)  center center/cover;
+        color: white;
+    }
+    h1{
+        font-size: 20px;
+        margin-bottom: -10px;
+        line-height: 58px ;
+        text-align: center;
+    }
+    .topics {
+        display: flex;
+        flex-direction: column;
+    }
+    .banner3{
+        display: flex;
+        flex-direction: column;
+    }
+    .parent{
+        display: none;
+    }
+    .banner6{
+        height: 500px;
+    }
+    .banner7 {
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+    }
+    .banner8{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+    
+ }
